@@ -21,7 +21,6 @@ const App = () => {
 
   const appState = localStorage.getItem(APP_KEY);
 
-  // reducerでのstateをここで統合
   const initialState = appState
     ? JSON.parse(appState)
     : {
